@@ -9,4 +9,4 @@ for i in range(9):
         h = m
         pos = [i, A[i].index(m)]
 
-print(f"{h}\n{pos[0]+1} {pos[1]+1}")
+print(f"{h}\n{pos[0] + 1} {pos[1] + 1}")

@@ -1,4 +1,4 @@
-count = [0]*10
+count = [0] * 10
 num = 1
 
 for i in range(3):

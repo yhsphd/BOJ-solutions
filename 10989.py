@@ -1,7 +1,8 @@
 import sys
+
 input = sys.stdin.readline
 
-count = [0]*10001
+count = [0] * 10001
 
 for i in range(int(input())):
     count[int(input())] += 1

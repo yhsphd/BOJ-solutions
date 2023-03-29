@@ -3,5 +3,5 @@ for i in range(int(input())):
     points = 0
     for streak in streaks:
         n = len(streak)
-        points += n * (n+1) // 2
+        points += n * (n + 1) // 2
     print(points)

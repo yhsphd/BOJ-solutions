@@ -1,1 +1,1 @@
-print((int(input())//4) * "long " + "int")
+print((int(input()) // 4) * "long " + "int")

@@ -5,5 +5,5 @@ for i in range(5):
 
 numbers = sorted(numbers)
 
-print(sum(numbers)//5)
+print(sum(numbers) // 5)
 print(numbers[2])

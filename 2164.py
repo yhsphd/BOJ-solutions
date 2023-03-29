@@ -1,6 +1,6 @@
 from collections import deque
 
-queue = deque(range(int(input())+1))
+queue = deque(range(int(input()) + 1))
 queue.popleft()
 
 if len(queue) == 1:

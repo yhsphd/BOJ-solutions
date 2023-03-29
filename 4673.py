@@ -9,7 +9,7 @@ def d(num: int):
 
 
 for i in range(10000):
-    d(i+1)
+    d(i + 1)
 
 self = sorted(list(set(range(1, 10001)) - nonself))
 for selfnum in self:

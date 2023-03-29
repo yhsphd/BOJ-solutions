@@ -7,4 +7,4 @@ def Euclidean(a, b):
 numbers = list(map(int, input().split()))
 gcd = Euclidean(numbers[0], numbers[1])
 print(gcd)
-print(numbers[0]*numbers[1]//gcd)
+print(numbers[0] * numbers[1] // gcd)

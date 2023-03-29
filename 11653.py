@@ -11,7 +11,7 @@ def checkPrime(num: int):
         for i in range(math.floor(math.sqrt(num))):
             if i == 0:
                 continue
-            elif num % (i+1) == 0:
+            elif num % (i + 1) == 0:
                 return False
         return True
 
@@ -28,7 +28,7 @@ else:
     while num != 1:
         if num % x == 0:
             print(x)
-            num = num//x
+            num = num // x
             x = 2
         else:
             x += 1
